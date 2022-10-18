@@ -224,7 +224,7 @@
        <div class="col">
          <div class="timer-block">
            <h4 class="text-muted"><span id="item-1" class="title">班级1</span><span class="badge badge-info ml-3" id="sta-item-1">正在计时</span></h4>
-           <span><span class="badge badge-primary" id="min-item-1">03</span> <small class="title">min</small></span>
+           <span><span class="badge badge-primary" id="min-item-1">04</span> <small class="title">min</small></span>
            <span><span class="badge badge-primary" id="s-item-1">00</span> <small class="title">s</small></span>
 		   <div class="progress">
 				<div id="bar-1" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
@@ -234,7 +234,7 @@
        <div class="col">
          <div class="timer-block">
            <h4 class="text-muted"><span id="item-2" class="title">班级2</span><span class="badge badge-info ml-3" id="sta-item-2">正在计时</span></h4>
-           <span><span class="badge badge-warning" id="min-item-2">03</span> <small class="title">min</small></span>
+           <span><span class="badge badge-warning" id="min-item-2">04</span> <small class="title">min</small></span>
            <span><span class="badge badge-warning" id="s-item-2">00</span> <small class="title">s</small></span>
 			<div class="progress">
 				<div id="bar-2" class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
@@ -249,7 +249,8 @@
       <button type="button" class="btn btn-warning" id="btn-1" onclick="restart_timer(1)" style="display: none;"><span id="item-1-name">班级1</span> 计时</button>
       <button type="button" class="btn btn-primary" id="btn-2" onclick="restart_timer(2)" style="display: none;"><span id="item-2-name">班级2</span> 计时</button>
       <button type="button" class="btn btn-sm btn-success" id="btn-stop" onclick="stop_cur_timer()" style="display: none;">暂停</button>
-	  <button type="button" class="btn btn-sm btn-success" id="btn-start" onclick="restart_with_time(4,0);" style="display: none;">继续</button>
+	  <button type="button" class="btn btn-sm btn-success" id="btn-start" onclick="restart_with_time(4,0);" style="display: none;">时间重置</button>
+	  <button type="button" class="btn btn-sm btn-danger" id="btn-restart" data-toggle="modal" data-target="#reset">设置</button>
     </div>
 	</div>
 	<a class="btn btn-success mt-3 ml-3" href="./timer_common.html" target="_self" style="float: left;">常规模式</a>
